@@ -1,0 +1,64 @@
+*{	padding: 0;
+	margin: 0;
+	text-align: center;
+
+
+
+}
+html, body{
+	background-image: url(../img/imagen2.jpg); 
+
+
+}
+table{
+ display: inline-block;
+ list-style: none;
+ padding: 5px;
+ font: bold 14px verdana, sans-serif; 
+ border-spacing: 25px 5px;/*Este sirve para separar las celdas de la tabla*/
+ border-collapse: separate;
+ font-size: 1.25rem;
+ color: black;
+ background: #D9F0FF;
+ border-radius: 10px;
+
+}
+
+header{
+	text-align: center;
+	font-size: 2rem;
+
+
+}
+footer{
+	
+	padding: 1rem;
+	border-radius: 10px;
+	margin: 1rem;
+	background: #080357;
+}
+ aside{
+ 	width: 90%;
+	display: inline-block;;
+	height: 0px;
+	background-color: #04E762; 
+ }
+ article{
+ 	width: 90%;
+ 	display: inline-block;
+ 	height: 900px;
+ 	background: #009FB7;
+ }
+ p{
+ 	text-align: left;
+ 	padding: 1rem;
+ }
+ li{
+ 	text-align: left;
+ 	padding: 1rem;
+
+ }
+ article,aside{
+ 	font-size: 2rem;
+
+ }

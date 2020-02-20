@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	outline: 0;
+	margin: 0;
+	text-align: center;
+	box-sizing: border-box;
+} 
+html,body{
+	background-image: url(../img/est.jpg); 
+}
+table{
+ display: inline-block;
+ list-style: none;
+ padding: 5px;
+ font: bold 14px verdana, sans-serif; 
+ border-spacing: 25px 5px;/*Este sirve para separar las celdas de la tabla*/
+ border-collapse: separate;
+ font-size: 1.25rem;
+ color: white;
+ background: #2C0E37;
+ border-radius: 10px;
+
+}
+header{
+	text-align: center;
+	font-size: 2rem;
+}
+p{
+	font-size: 1.5rem;
+}
+footer{
+	
+	padding: 1rem;
+	border-radius: 10px;
+	margin: 1rem;
+	background: #35FF69;
+}
